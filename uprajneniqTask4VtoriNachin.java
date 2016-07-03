@@ -1,6 +1,6 @@
-//Напишете програма, която брои колко пъти се среща всяка 
-//английска буква в даден символен низ. Запазете резултатите в 
-//масив.
+//ГЌГ ГЇГЁГёГҐГІГҐ ГЇГ°Г®ГЈГ°Г Г¬Г , ГЄГ®ГїГІГ® ГЎГ°Г®ГЁ ГЄГ®Г«ГЄГ® ГЇГєГІГЁ Г±ГҐ Г±Г°ГҐГ№Г  ГўГ±ГїГЄГ  
+//Г Г­ГЈГ«ГЁГ©Г±ГЄГ  ГЎГіГЄГўГ  Гў Г¤Г Г¤ГҐГ­ Г±ГЁГ¬ГўГ®Г«ГҐГ­ Г­ГЁГ§. Г‡Г ГЇГ Г§ГҐГІГҐ Г°ГҐГ§ГіГ«ГІГ ГІГЁГІГҐ Гў 
+//Г¬Г Г±ГЁГў.
 //kolko puti se sre6ta vsqka angliiska bukva
 
 package stringoveMetodi;
@@ -32,9 +32,8 @@ public class uprajneniqTask4VtoriNachin {
 			}
 		}
 		System.out.println("drugi simvoli ima " + otherSymbols);
-
 	}
-
+	
 	static String stringDeclaration() {
 		String s;
 		Scanner sc = new Scanner(System.in);
@@ -44,15 +43,5 @@ public class uprajneniqTask4VtoriNachin {
 		} while (s == null);
 		return s;
 
-	}
-
-	static String OneWordStringDeclaration() {
-		String s;
-		Scanner sc = new Scanner(System.in);
-		do {
-			System.out.println("enter your String:");
-			s = sc.next();
-		} while (s == null);
-		return s;
 	}
 }
